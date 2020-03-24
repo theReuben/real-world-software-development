@@ -1,0 +1,7 @@
+/home/reuben/github/real-world-software-development/my-app/src/main/java/com/thereuben/rwsd/chapter_02/IBankTransaction.java
+/home/reuben/github/real-world-software-development/my-app/src/main/java/com/thereuben/rwsd/App.java
+/home/reuben/github/real-world-software-development/my-app/src/main/java/com/thereuben/rwsd/chapter_02/BankStatementCSVParser.java
+/home/reuben/github/real-world-software-development/my-app/src/main/java/com/thereuben/rwsd/chapter_02/IBankStatementCSVParser.java
+/home/reuben/github/real-world-software-development/my-app/src/main/java/com/thereuben/rwsd/chapter_02/BankTransactionAnalyzer.java
+/home/reuben/github/real-world-software-development/my-app/src/main/java/com/thereuben/rwsd/chapter_02/BankTransaction.java
+/home/reuben/github/real-world-software-development/my-app/src/main/java/com/thereuben/rwsd/chapter_02/IBankTransactionAnalyzer.java

@@ -8,7 +8,9 @@ public class BankTransaction implements IBankTransaction {
 	private double amount;
 	private String category;
 
-	public BankTransaction(LocalDate date, double amount, String category) {
+	public BankTransaction(final LocalDate date, 
+							final double amount, 
+							final String category) {
 		this.date = date;
 		this.amount = amount;
 		this.category = category;
