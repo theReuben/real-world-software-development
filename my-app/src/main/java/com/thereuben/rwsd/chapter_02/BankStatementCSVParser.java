@@ -1,12 +1,12 @@
 package com.thereuben.rwsd.chapter_02;
 
+import java.io.IOException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
 public class BankStatementCSVParser implements IBankStatementCSVParser {
-
 	private static final DateTimeFormatter DATE_PATTERN 
 		= DateTimeFormatter.ofPattern("dd-MM-yyyy");
 
@@ -21,10 +21,11 @@ public class BankStatementCSVParser implements IBankStatementCSVParser {
 		return new BankTransaction(date, amount, category);
 	}
 
-	public List<BankTransaction> parseCSV(final List<String> lines) {
+	public List<BankTransaction> parseCSV(final String fileName) throws IOException {
 		List<BankTransaction> transactions = new ArrayList<>();
-
-		for (String line : lines) {
+		BankStatementCSVReader reader = new BankStatementCSVReader();
+		
+		for (String line : reader.readCSV(fileName)) {
 			transactions.add(parseCSVLine(line));
 		}
 

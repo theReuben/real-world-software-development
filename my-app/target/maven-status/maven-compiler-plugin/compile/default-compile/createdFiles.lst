@@ -1,9 +1,12 @@
 com/thereuben/rwsd/App.class
 com/thereuben/rwsd/chapter_02/IBankTransaction.class
-com/thereuben/rwsd/chapter_02/BankTransaction.class
+com/thereuben/rwsd/chapter_02/IBankTransactionAnalysis.class
 com/thereuben/rwsd/chapter_02/IBankStatementCSVReader.class
+com/thereuben/rwsd/chapter_02/BankTransactionAnalyzer.class
+com/thereuben/rwsd/chapter_02/Main.class
+com/thereuben/rwsd/chapter_02/BankStatementCSVReader.class
+com/thereuben/rwsd/chapter_02/BankTransactionAnalysis.class
+com/thereuben/rwsd/chapter_02/BankTransaction.class
 com/thereuben/rwsd/chapter_02/IBankTransactionAnalyzer.class
 com/thereuben/rwsd/chapter_02/IBankStatementCSVParser.class
 com/thereuben/rwsd/chapter_02/BankStatementCSVParser.class
-com/thereuben/rwsd/chapter_02/BankTransactionAnalyzer.class
-com/thereuben/rwsd/chapter_02/BankStatementCSVReader.class
