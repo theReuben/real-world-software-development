@@ -12,5 +12,5 @@ public interface IBankTransactionAnalyzer {
 
 	public List<String> topTenExpenses();
 
-	public String biggestExpense();
+	public BankTransaction biggestExpense();
 }
